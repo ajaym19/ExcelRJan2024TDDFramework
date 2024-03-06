@@ -1,0 +1,31 @@
+Framework Notes
+
+Types:
+1. TDD: Test Driven Development
+2. BDD: Behavior Driven Development
+
+Integrations:
+1. Java
+2. Maven
+3. Selenium
+4. TestNG
+5. APache POI
+6. Github
+7. Jenkins
+
+Design Pattern
+1. POM: Page Object Model
+
+Naming Conventions
+package: reverse of company domain
+com.facebook.testcases
+
+Class Name: Students, StudentsInfo
+Variables and Methods: Camel Case
+id, studentId, studentAddressDetails
+
+src/main/java >> will contain the logic and selenium code
+src/test/java >> will contain only test cases and testng code
+
+
+

@@ -1,0 +1,16 @@
+Github Training
+
+Installations or Account
+1. Create or Login in GitHub
+2. Install GIT
+
+Steps for code pushing from local to remote:
+1. Open CMD
+2. Go to the Project using cd folderpath
+3. Initialize git in your project using git init
+4. Link your local project to remore repository using git remote add origin https://github.com/ajaym19/ExcelRJan2024TDDFramework.git
+5. Use command git status to check the status of the files
+6. Use git add . to add all the files from unstaged to staged area
+	or use git add filename to add specific files or folders from unstaged to staged area
+7. Commit your changes using git commit -m "commit message"
+8. Move code to repository using git push origin master
