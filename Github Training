@@ -14,3 +14,13 @@ Steps for code pushing from local to remote:
 	or use git add filename to add specific files or folders from unstaged to staged area
 7. Commit your changes using git commit -m "commit message"
 8. Move code to repository using git push origin master
+
+Branching Concept
+
+Scenario:
+Project: TDD
+Person1: to create OHRMLoginFile (let branch name be login)
+Person2: to create OHRMDashboardFile (let branch name be db)
+Main Branch
+1. Create: git branch branch_name
+2. Switch: git switch branch_name or git checkout branch_name
